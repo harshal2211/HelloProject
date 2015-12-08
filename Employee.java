@@ -7,5 +7,6 @@ public class Employee{
 	public Employee(long empId, String empName){
 		this.empId = empId;
 		this.empName = empName;
+		System.out.println("Object created");
 	}
 }
